@@ -19,7 +19,7 @@ jobs:
   goreleaser:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     outputs:
       hashes: ${{ steps.binary.outputs.hashes }}
     steps:
