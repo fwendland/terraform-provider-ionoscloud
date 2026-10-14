@@ -12,7 +12,8 @@
 name: snapshot
 on:
   push:
-    branches: [emerald]
+    tags:
+      - 'v*-draft'
 
 jobs:
   goreleaser:
