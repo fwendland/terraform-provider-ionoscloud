@@ -13,7 +13,7 @@ name: draft
 on:
   push:
     tags:
-      - 'draft/v*'
+      - 'v*-draft'
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
